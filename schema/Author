@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://cardano-governance.github.io/vocabulary/schema/Author.json",
+  "$id": "https://cardano-governance.github.io/vocabulary/schema/Author",
   "title": "Author",
   "description": "An author endorsing the content of a metadata document",
   "type": "object",
@@ -13,7 +13,7 @@
       "type": "string"
     },
     "witness": {
-      "$ref": "Witness.json"
+      "$ref": "Witness"
     }
   }
 }

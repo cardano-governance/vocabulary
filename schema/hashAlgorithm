@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://cardano-governance.github.io/vocabulary/schema/hashAlgorithm.json",
+  "$id": "https://cardano-governance.github.io/vocabulary/schema/hashAlgorithm",
   "title": "Hash Algorithm",
   "description": "The hash algorithm used to authenticate this document externally",
   "type": "string",
