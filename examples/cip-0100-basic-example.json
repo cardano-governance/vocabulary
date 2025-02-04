@@ -21,6 +21,6 @@
       }
     ]
   },
-  "hashingAlgorithm": "blake2b-256",
+  "hashAlgorithm": "blake2b-256",
   "authors": []
 }
