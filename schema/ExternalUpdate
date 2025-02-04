@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://cardano-governance.github.io/vocabulary/schema/ExternalUpdate.json",
+  "$id": "https://cardano-governance.github.io/vocabulary/schema/ExternalUpdate",
   "title": "ExternalUpdate",
   "type": "object",
   "description": "An source for updates *after* the metadata is published",
