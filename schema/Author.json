@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cardano-governance.github.io/vocabulary/schema/Author.json",
+  "title": "Author",
+  "description": "An author endorsing the content of a metadata document",
+  "type": "object",
+  "required": [
+    "witness"
+  ],
+  "properties": {
+    "name": {
+      "title": "Name",
+      "type": "string"
+    },
+    "witness": {
+      "$ref": "Witness.json"
+    }
+  }
+}

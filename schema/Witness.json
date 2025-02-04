@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cardano-governance.github.io/vocabulary/schema/Witness.json",
+  "title": "Witness",
+  "description": "A witness proving that the author endorses the content of the metadata",
+  "type": "object",
+  "properties": {
+    "witnessAlgorithm": {
+      "title": "WitnessAlgorithm",
+      "type": "string",
+      "enum": [
+        "ed25519"
+      ]
+    },
+    "publicKey": {
+      "title": "PublicKey",
+      "type": "string"
+    },
+    "signature": {
+      "title": "Signature",
+      "type": "string"
+    }
+  }
+}

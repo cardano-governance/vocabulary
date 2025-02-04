@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cardano-governance.github.io/vocabulary/schema/Reference.json",
+  "title": "Reference",
+  "description": "A reference to a document",
+  "type": "object",
+  "required": [
+    "@type",
+    "label",
+    "uri"
+  ],
+  "properties": {
+    "@type": {
+      "title": "Type",
+      "type": "string",
+      "enum": [
+        "GovernanceMetadata",
+        "Other"
+      ]
+    },
+    "label": {
+      "title": "Label",
+      "type": "string"
+    },
+    "uri": {
+      "title": "URI",
+      "type": "string"
+    }
+  }
+}

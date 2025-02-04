@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cardano-governance.github.io/vocabulary/schema/Body.json",
+  "title": "Body",
+  "description": "The body of the metadata document that is hashed to produce a signature",
+  "properties": {
+    "references": {
+      "title": "References",
+      "type": "array",
+      "items": {
+        "$ref": "Reference.json"
+      }
+    },
+    "comment": {
+      "title": "Comment",
+      "type": "string"
+    },
+    "externalUpdates": {
+      "title": "ExternalUpdates",
+      "type": "array",
+      "items": {
+        "$ref": "ExternalUpdate.json"
+      }
+    }
+  }
+}

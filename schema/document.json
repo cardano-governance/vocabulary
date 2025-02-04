@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cardano-governance.github.io/vocabulary/schema/document.json",
+  "title": "Common Document Properties",
+  "description": "The base document structure defined by CIP-100",
+  "type": "object",
+  "required": [
+    "hashAlgorithm",
+    "authors",
+    "body"
+  ],
+  "properties": {
+    "hashAlgorithm": {
+      "$ref": "hashAlgorithm.json"
+    },
+    "authors": {
+      "title": "Authors",
+      "description": "The authors of this governance metadata",
+      "type": "array",
+      "items": {
+        "$ref": "Author.json"
+      }
+    },
+    "body": {
+      "$ref": "Body.json"
+    }
+  }
+}
