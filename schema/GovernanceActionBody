@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cardano-governance.github.io/vocabulary/schema/GovernanceActionBody",
+  "$ref": "https://cardano-governance.github.io/vocabulary/schema/Body",
+  "title": "Governance Action Body",
+  "description": "Body contents for metadata describing a submitted Governance Action",
+  "type": "object",
+  "required": [
+    "title",
+    "abstract",
+    "motivation",
+    "rationale"
+  ],
+  "properties": {
+    "title": {
+      "type": "string",
+      "title": "Title",
+      "description": "A brief introduction to the motivation for the governance action"
+    },
+    "abstract": {
+      "type": "string",
+      "title": "Abstract",
+      "description": "A concise summary of the motivation and rationale for the governance action"
+    },
+    "motivation": {
+      "type": "string",
+      "title": "Motivation",
+      "description": "Context around the problem being addressed by the on-chain action"
+    },
+    "rationale": {
+      "type": "string",
+      "title": "Rationale",
+      "description": "Explanation of how the governance action addresses the problem outlined in 'motivation'"
+    }
+  }
+}
