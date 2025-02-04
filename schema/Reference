@@ -25,6 +25,21 @@
     "uri": {
       "title": "URI",
       "type": "string"
+    },
+    "referenceHash": {
+      "type": "object",
+      "title": "Reference Hash",
+      "description": "A hash of a reference document",
+      "required": ["hashDigest", "hashAlgorithm"],
+      "properties": {
+        "hashDigest": {
+          "type": "string",
+          "title": "Hash"
+        },
+        "hashAlgorithm": {
+          "$ref": "hashAlgorithm"
+        }
+      }
     }
   }
 }

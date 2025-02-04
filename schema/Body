@@ -3,6 +3,7 @@
   "$id": "https://cardano-governance.github.io/vocabulary/schema/Body",
   "title": "Body",
   "description": "The body of the metadata document that is hashed to produce a signature",
+  "type": "object",
   "properties": {
     "references": {
       "title": "References",
