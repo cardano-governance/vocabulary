@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cardano-governance.github.io/vocabulary/schema/ExternalUpdate.json",
+  "title": "ExternalUpdate",
+  "type": "object",
+  "description": "An source for updates *after* the metadata is published",
+  "required": [
+    "title",
+    "uri"
+  ],
+  "properties": {
+    "title": {
+      "title": "Title",
+      "type": "string"
+    },
+    "uri": {
+      "title": "URI",
+      "type": "string"
+    }
+  }
+}
