@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cardano-governance.github.io/vocabulary/schema/DRepRegistration",
+  "$ref": "https://cardano-governance.github.io/vocabulary/schema/Document",
+  "title": "DRep Registration",
+  "description": "Provides information about a registering Delegated Representative",
+  "properties": {
+    "@type": {
+      "type": "string",
+      "enum": ["DRepRegistration"]
+    },
+    "body": {
+      "$ref": "DRepRegistrationBody"
+    }
+  }
+}

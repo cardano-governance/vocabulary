@@ -15,7 +15,9 @@
       "type": "string",
       "enum": [
         "GovernanceMetadata",
-        "Other"
+        "Other",
+        "Link",
+        "Identity"
       ]
     },
     "label": {
